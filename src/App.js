@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Counter from "./components/Counter";
+import TodoList from "./components/TodoList";
 
 class App extends Component {
   state = {
@@ -22,16 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter
-          count={this.state.count}
-          decrement={this.decrement}
-          increment={this.increment}
-        />
-        <Counter
-          count={this.state.count}
-          decrement={this.decrement}
-          increment={this.increment}
-        />
+        <TodoList />
       </div>
     );
   }

@@ -5,12 +5,14 @@
   "dependencies": {
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "shortid": "^2.2.13"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "devDependencies": {}
 }
